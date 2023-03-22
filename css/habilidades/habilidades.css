@@ -1,0 +1,16 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(238,218,241,1) 0%, rgba(245,245,245,1) 100%);
+    align-items: center;
+}
+@media screen and (min-width: 0) {
+    .habilidades{
+        padding: 0rem 2rem 2rem 2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .habilidades{
+        padding: 0rem 3rem 3rem 3rem;
+    }
+}

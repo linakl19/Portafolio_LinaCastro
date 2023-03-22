@@ -1,0 +1,17 @@
+.presentacion__background{
+    /* background: url(../../img/background-presentacion2.png) no-repeat center / cover;  */
+    width: 100%;
+    height: 100vh;
+    /* height: calc(100vh - 100px); */
+}
+.presentacion__background::before{
+    background: url(../../img/background-presentacion2.png); 
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.70;
+}

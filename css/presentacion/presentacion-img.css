@@ -1,0 +1,27 @@
+.presentacion__img{
+    border-radius: 100%;
+    border: 0.20rem outset var(--dark-grey);
+    box-shadow: 7px 7px 5px 0px rgba(243, 247, 194, 0.75);
+}
+@media screen and (min-width: 0) {
+    .presentacion__img{
+       margin-bottom: 1.5rem;
+       width: 10rem;
+       height: 10rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .presentacion__img{
+        margin-bottom: 2rem;
+        width: 15rem;
+        height: 15rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .presentacion__img{
+        margin-top: 3%;
+        margin-right: 2rem;
+        width: 17rem;
+        height: 17rem;
+    }   
+}

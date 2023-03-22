@@ -1,0 +1,17 @@
+.hobby{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem
+}
+@media screen and (min-width: 0) {
+    .hobby{
+        width: 95%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hobby{
+        width: 75%;
+    }
+}

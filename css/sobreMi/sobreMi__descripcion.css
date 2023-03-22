@@ -1,0 +1,20 @@
+.sobreMi__descripcion{
+    text-align: center;
+    font-family: var(--tilt-neon);
+    color: var(--gris-texto);
+    line-height: 1.5rem;
+    align-self: center;
+    padding-bottom: 3.5rem;
+}
+@media screen and (min-width: 0) {
+    .sobreMi__descripcion{
+        width: 70%;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sobreMi__descripcion{
+        width: 65%;
+        font-size: 1.25rem;
+    }
+}

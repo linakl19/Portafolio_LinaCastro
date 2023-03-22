@@ -1,0 +1,5 @@
+.footer__texto{
+    font-family: var(--tilt-neon);
+    color: var(--dark-grey);
+    line-height: 1.3;
+}

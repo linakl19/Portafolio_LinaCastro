@@ -1,0 +1,59 @@
+.proyecto__contenido--botones{
+    display: flex;
+    gap:1rem;
+}
+.boton--img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+.proyecto__boton{
+    display: flex;
+    align-items: center;
+    font-family: var(-tilt-neon);
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(90.21deg,#eacfff87 -5.91%,#fdfebd65 111.58%);
+    color: var(--negro-titulo);
+    border: 0.5px solid var(--dark-grey);
+    transition: 1s;
+}
+.proyecto__boton:hover{
+    color: var(--negro-titulo);
+    background-color: var(--sombra-amarilla);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.proyecto__boton--txt{
+    font-family: var(--tilt-neon);
+    color: var(--negro-titulo);
+    font-size: 1.2rem;
+}
+@media screen and (min-width: 0) {
+    .proyecto__contenido--botones{
+        flex-direction: column;
+        align-items: center;
+    }
+    .proyecto__boton{
+        width: 12rem;
+        text-align: center;
+    }
+    .proyecto__boton--txt{
+        font-size: 0.95rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .proyecto__contenido--botones{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-weight: 400;
+    }
+    .proyecto__boton{
+        width: fit-content;
+        font-weight: 500;
+    }
+    .proyecto__boton--txt{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,30 @@
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    background: white;
+    border-radius: 4rem;
+
+}
+.proyecto:hover{
+    box-shadow: var(--nude-oscuro) 0px 14px 28px, var(--nude-oscuro) 0px 10px 10px;
+}
+@media screen and (min-width: 0) {
+    .proyecto{
+        margin-bottom: 3.5rem;
+        width: 90%;
+        border-bottom: 2.5px solid var(--nude-oscuro);
+        border-left: 2.5px solid var(--nude-oscuro);
+        border-right: 2.5px solid var(--nude-oscuro);
+    }
+}
+@media screen and (min-width: 768px) {
+    .proyecto{
+        margin-bottom: 5rem; 
+        width: 70%;
+        border-bottom: 3px solid var(--nude-oscuro);
+        border-left: 3px solid var(--nude-oscuro);
+        border-right: 3px solid var(--nude-oscuro);
+    }
+}

@@ -1,0 +1,16 @@
+.habilidad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+}
+@media screen and (min-width: 0) {
+    .habilidad{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .habilidad{
+        width: 75%;
+    }
+}

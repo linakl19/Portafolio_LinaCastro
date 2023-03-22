@@ -1,0 +1,50 @@
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.contacto__form--input{
+    padding: 0.7rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--dark-grey);
+    background-color: whitesmoke;
+    font-family: var(--tilt-neon);
+}
+.contacto__form--input:focus{
+    outline-color: var(--violeta);
+}
+.contacto__form--boton{
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-family: var(--tilt-neon);
+    width: fit-content;
+    background: linear-gradient(90.21deg,#fcf7ff87 -5.91%,#fdfebd65 111.58%);
+    color: var(--negro-titulo);
+    border: 1px solid var(--dark-grey);
+    box-shadow: rgba(251, 248, 159, 0.19) 0px 10px 20px, rgba(229, 42, 250, 0.235) 0px 6px 6px;
+    transition: 1s;
+}
+.contacto__form--boton:hover{
+    color: var(--negro-titulo);
+    background-color: var(--sombra-amarilla);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+@media screen and (min-width: 0) {
+    .contacto__form{
+        width: 85%;
+    }
+    .contacto__form--boton{
+        align-self: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .contacto__form{
+        width: 45%;
+    }
+    .contacto__form--boton{
+        align-self: flex-start;
+    }
+}

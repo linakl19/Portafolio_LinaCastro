@@ -1,0 +1,14 @@
+.habilidad__imagen{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+@media screen and (min-width: 0) {
+    .habilidad__imagen{
+        padding-bottom: 0.75rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .habilidad__imagen{
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,28 @@
+.presentacion__contenido{
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+@media screen and (min-width: 0) {
+    .presentacion__contenido{
+        flex-direction: column-reverse;
+        align-items: center;
+        top: 18%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .presentacion__contenido{
+        flex-direction: column-reverse;
+        align-items: center;
+        top: 18%
+    }
+}
+@media screen and (min-width: 992px) {
+    .presentacion__contenido{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        top: 29%;
+        gap: 10%;
+    }   
+}

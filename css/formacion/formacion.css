@@ -1,0 +1,7 @@
+.formacion{
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(238,218,241,1) 0%, rgba(245,245,245,1) 100%);
+    align-items: center;
+    width: 100%;
+}

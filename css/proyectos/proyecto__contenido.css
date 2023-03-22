@@ -1,0 +1,22 @@
+.proyecto__contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.proyecto__contenido--portafolio{
+    flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 0){
+    .proyecto__contenido{
+        padding: 1rem 1rem 1rem 1rem;
+        width: calc(100% - 2rem); 
+    }
+}
+@media screen and (min-width: 768px){
+    .proyecto__contenido{
+        padding: 1.5rem 2rem 1.5rem 2rem;
+        width: calc(100% - 4rem); 
+    }
+}

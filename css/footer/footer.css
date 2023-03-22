@@ -1,0 +1,7 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(238,218,241,1) 0%, rgba(245,245,245,1) 37%);
+
+}
