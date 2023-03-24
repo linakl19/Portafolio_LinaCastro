@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portafolio | Lina Castro</title>
         <script defer src="index.js"></script>
-
+        
         <!-- FONT AWESOME -->
         <script src="https://kit.fontawesome.com/d5c83b2991.js" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -69,6 +69,11 @@
         <link href="css/footer/footer__contenido.css" rel="stylesheet"/>
         <link href="css/footer/footer__texto.css" rel="stylesheet"/>
         <link href="css/footer/footer__links.css" rel="stylesheet"/>
+
+        <script src="./scrollreveal.js"></script>
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-32x32.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     </head>
     <body>
         <header class="header">
@@ -90,7 +95,7 @@
         </header>
         <section class="presentacion" id="home">
             <div class="presentacion__background">
-            <div class="presentacion__contenido">
+            <div class="presentacion__contenido scroll__top">
                 <div class="presentacion__texto">
                     <h2 class="presentacion__hola">Hola, soy</h2>
                     <h1 class="presentacion__nombre">Lina Castro</h1>
@@ -105,16 +110,16 @@
             </div>
         </section>
         <section class="sobreMi" id="sobre-mi">
-            <h3 class="titulo">Sobre mí</h3>
-            <p class="sobreMi__descripcion">
+            <h3 class="titulo scroll__titulo">Sobre mí</h3>
+            <p class="sobreMi__descripcion scroll__contenido">
                 Formada en Trabajo Social y actualmente estudiante de Desarrollo Web Front-End con el programa ONE Oracle Next Education e Ingeniería en Sistemas Computacionales con la universidad UTEL. </br></br>
                 Empecé mi trayectoria profesional trabajando para diferentes organizaciones sin Ánimo de Lucro, continué con el aprendizaje y la mejora del inglés a través de un programa de intercambio cultural en USA. Al finalizar, inicié con mis estudios en Desarrollo Web en el área Front-End aprendiedo diferentes lenguajes como: HTML, CSS y Javascript. Estos conocimientos los continuo ampliando gracias a mi dedicación, perseverancia, y pasión.</br></br>
                 Me destaco por mi proactividad, responsabilidad, trabajo en equipo, trabajo interdisciplinar, buenas relaciones interculturales y por mis ganas de aprender y mejorar día tras día.
             </p>
         </section>
         <section class="habilidades" id="habilidades">
-            <h3 class="titulo">Habilidades</h3>
-            <div class="habilidad">
+            <h3 class="titulo scroll__titulo">Habilidades</h3>
+            <div class="habilidad scroll__contenido">
                 <div class="habilidad__contenido">
                     <img src="./img/html-5.png" alt="HTML5" class="habilidad__imagen">
                     <h4 class="habilidad__texto">HTML 5</h4>
@@ -142,8 +147,8 @@
             </div>
         </section>
         <section class="hobbies" id="hobbies">
-            <h3 class="titulo">Hobbies</h3>
-            <div class="hobby">
+            <h3 class="titulo scroll__titulo">Hobbies</h3>
+            <div class="hobby scroll__contenido">
                 <div class="hobby__contenido">
                     <img src="./img/bailar.png" alt="bailar" class="hobby__contenido--img">
                     <h4 class="hobby__contenido--txt">Bailar</h4>
@@ -163,8 +168,8 @@
             </div>
         </section>
         <section class="formacion" id="formacion">
-            <h3 class="titulo">Formación Académica</h3>
-            <div class="institucion">
+            <h3 class="titulo scroll__titulo">Formación Académica</h3>
+            <div class="institucion scroll__contenido">
                 <div class="institucion__contenido">
                     <img src="./img/Oracle_Alura.png" alt="ONE Oracle Next Education" class="institucion__contenido--img">
                     <h4 class="institucion__contenido--txt">Desarrollo Web</br>Front-End</h4>
@@ -183,8 +188,8 @@
             </div>
         </section>
         <section class="proyectos" id="proyectos">
-            <h3 class="titulo">Proyectos</h3>
-            <div class="proyecto">
+            <h3 class="titulo scroll__top">Proyectos</h3>
+            <div class="proyecto scroll__top">
                 <div class="proyecto__contenido proyecto__contenido--encriptador">
                     <img src="./img/Encriptador.png" alt="Encriptador de Texto" class="proyecto__contenido--img">
                     <div class="proyecto__contenido--txt">
@@ -222,11 +227,11 @@
             </div>
         </section>
         <section class="contacto" id="contacto">
-            <h3 class="titulo">Contacto</h3>
-            <p class="contacto__texto">¿Quieres contactarme?</br>Completa el siguiente formulario y me pondré en contacto lo antes posible.</p>
+            <h3 class="titulo scroll__titulo">Contacto</h3>
+            <p class="contacto__texto scroll__contenido">¿Quieres contactarme?</br>Completa el siguiente formulario y me pondré en contacto lo antes posible.</p>
             <div class="contacto__contenido">
-                <img src="./img/mail.png" alt="Imagen " class="contacto__contenido--img">
-                <form action="" class="contacto__form">
+                <img src="./img/mail.png" alt="Imagen " class="contacto__contenido--img scroll__titulo">
+                <form action="" class="contacto__form scroll__contenido">
                     <input type="text" class="contacto__form--input" placeholder="Nombre" maxlength="50" required >
                     <input type="email" class="contacto__form--input" placeholder="email@dominio.com" required>
                     <input type="text" class="contacto__form--input" placeholder="Asunto" maxlength="50" required>
@@ -237,13 +242,13 @@
         </section>
         <footer class="footer">
             <div class="footer__contenido">
-                <div class="footer__links">
+                <div class="footer__links scroll__top">
                     <a href="https://www.linkedin.com/in/lina-castro-leiva" target="_blank"><img src="./img/linkedin.png" alt="linkedin" class="botones__redes-sociales"></a>
                     <a href="https://github.com/linakl19?tab=repositories" target="_blank"><img src="./img/github.png" alt="github" class="botones__redes-sociales"></a>
                     <a href="./hdv/CastroLeiva_LinaMarcela_HDV.pdf" target="_blank"><img src="./img/cv.png" alt="Curriculum" class="botones__redes-sociales"></a>
                  </div>
-                <span class="footer__texto">Portafolio 2023</span>
-                <span class="footer__texto"> © Copyright | Lina Castro </span>
+                <span class="footer__texto scroll__titulo">Portafolio 2023</span>
+                <span class="footer__texto scroll__contenido"> © Copyright | Lina Castro </span>
             </div>
         </footer>
     </body>

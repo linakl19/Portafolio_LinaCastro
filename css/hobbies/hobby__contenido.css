@@ -24,7 +24,7 @@
 @media screen and (min-width: 0) {
     .hobby__contenido{
         margin: 0rem 1.5rem 1.5rem 1.5rem;
-        padding:1.2rem;
+        padding:1rem;
     }
     .hobby__contenido--txt{
         font-size: 1rem;

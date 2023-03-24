@@ -17,7 +17,9 @@
     --dancing-script: 'Dancing Script', cursive;
 
 }
-
+body{
+    width: 100vw;
+}
 .titulo{
     font-family: var(--dancing-script);
     padding-bottom: 1.5rem;
