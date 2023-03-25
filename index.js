@@ -17,10 +17,10 @@ navToggle.addEventListener("click", () => {
 ScrollReveal({
     reset: true,
     distance: '60px',
-    duration: 2500,
-    delay: 300
+    duration: 2000,
+    delay: 400
 });
-ScrollReveal().reveal('.scroll__bottom', {origin: 'top'});
 ScrollReveal().reveal('.scroll__top', {origin: 'bottom'});
-ScrollReveal().reveal('.scroll__contenido', {delay: 500, origin: 'right'});
-ScrollReveal().reveal('.scroll__titulo', {delat: 400, origin: 'left'});
+ScrollReveal().reveal('.scroll__contenido', {origin: 'bottom'});
+ScrollReveal().reveal('.scroll__titulo', {origin: 'top'});
+ScrollReveal().reveal('.habilidad__contenido', {origin: 'bottom', interval: 200});
